@@ -1,0 +1,42 @@
+<svg id="book" xmlns="http://www.w3.org/2000/svg" width="438" height="631" viewBox="0 0 438 631">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #44444f;
+      }
+
+      .cls-2, .cls-4 {
+        fill: #65e496;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #3d3d47;
+      }
+
+      .cls-4 {
+        font-size: 14px;
+        font-family: "Open Sans";
+      }
+
+      .cls-5 {
+        font-size: 36px;
+        fill: #fff;
+        text-anchor: middle;
+        font-family: RobotoSlab;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <rect id="book-2" data-name="book" class="cls-1" x="-3" y="-5" width="444.969" height="639" rx="5" ry="5"/>
+  <path id="Rectangle_10_copy" data-name="Rectangle 10 copy" class="cls-2" d="M373.051,531.046L538.47,365.655a30.747,30.747,0,0,1,43.486,43.479L416.537,574.526A30.747,30.747,0,1,1,373.051,531.046Z"/>
+  <path id="Rectangle_10_copy_2" data-name="Rectangle 10 copy 2" class="cls-2" d="M292.258,485.231L457.677,319.84a30.747,30.747,0,0,1,43.486,43.479L335.745,528.71A30.747,30.747,0,1,1,292.258,485.231Z"/>
+  <rect class="cls-3" x="-3" y="-5" width="62.719" height="639"/>
+  <text id="_-_By_Emma_Anderson" data-name="- By Emma Anderson" class="cls-4" x="82" y="575">- By Emma Anderson</text>
+  <text id="Don_t_judge_a_book_by_its_cover" data-name="Don’t judge a book by its cover" class="cls-4" x="127" y="164">Don’t judge a book by its cover</text>
+  <text id="Good_book" data-name="Good book" class="cls-5" x="236" y="139"><tspan x="236">Good book</tspan></text>
+</svg>

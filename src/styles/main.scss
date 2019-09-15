@@ -5,41 +5,95 @@
 // @import "base/fonts";
 // @import "base/general";
 // @import "../blocks/modules";
-
+$light-color: #fff;
+$accent-color:#65e496;
 body {
     font-family: 'Roboto Slab', serif;
 
 }
-
+.wrap{
+    max-width: 1170px;
+    margin: 0 auto;
+}
 .page-main {
     background-image: url(../img/bg-main.png);
     background-repeat: no-repeat;
     background-size: cover;
+    color:$light-color;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 39px;
     &__logo {
         display: block;
         width: 137px;
         height: 28px;
         background-image: url(../img/logo.svg);
     }
-
     &-list {
         list-style: none;
         display: flex;
         justify-content: flex-end;
-
+        font-family: 'Open Sans', 'serif';
+        font-size: 16px;
+        
         &__item {
-            margin-left: 15px;
-
-            & a {
-                text-decoration: none;
+            margin-left: 18.5px;
+            padding-bottom: 5px;
+            border-bottom: 3px solid transparent;
+            transition: 0.3s;
+            &:hover{
+                border-bottom: 3px solid $accent-color;
             }
         }
+        &__item.active{
+            border-bottom: 3px solid $accent-color;
+        }
+        &__link{
+            text-decoration: none;
+            color: $light-color;
+            letter-spacing: 0.99px;
+        }
+        
     }
+}
+.block-text{
+    &__name{
+        font-family: 'Open Sans', 'serif';
+        font-size: 18px;
+    }
+    &__title{
+        font-size: 48px;
+        span{
+            display: block;
+            color: $accent-color;
+            font-size: 18px;
+        }
+    }
+    p{
+        font-family: 'Open Sans', 'serif';
+        font-size: 15px;
+    }
+    &__btn{
+        text-decoration: none;
+        display: block;
+        background-color: $accent-color;
+        color: $light-color;
+        max-width: 250px;
+        border-radius: 3px;
+    }
+}
+.block-book{
+    &__demo{
+        display: block;
+        background-image: url(../img/book.svg);
+        width: 438px;
+        height: 631px;
+    }
+
 }
